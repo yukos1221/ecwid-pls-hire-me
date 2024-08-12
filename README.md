@@ -2,6 +2,18 @@
 
 How to open a project
 
+### Clone project
+
+```
+git clone git@github.com:yukos1221/ecwid-pls-hire-me.git
+```
+
+### Got to folder
+
+```
+cd ecwid-pls-hire-me 
+```
+
 ### Install dependencies
 
 ```
@@ -14,14 +26,8 @@ npm ci
 npm run dev
 ```
 
-### Build for production to 'dist' directory
+The project will be launched on URL 
 
 ```
-npm run build
-```
-
-### Locally preview production build
-
-```
-npm run preview
+http://localhost:5173
 ```
